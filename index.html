@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Supplies Table</title>
+    <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 class="title">Chemical Supplies</h2>
+            <div class="actions">
+                <button data-name="add" class="btn-add">+</button>
+                <button data-name="RowDown" class="btn-sort-desc">↓</button>
+                <button data-name="RowUp" class="btn-sort-asc">↑</button>
+                <button data-name="Delete" class="btn-delete">🗑️</button>
+                <button data-name="reload" class="btn-reset">🔄</button>
+                <button data-name="Save" class="btn-save">💾</button>
+            </div>
+        </div>
+        <div id="hover-text"></div>
+
+        <table class="chemical-table">
+            <thead class="table-header">
+                <tr>
+                    <th class="col-checkbox"></th>
+                    <th class="col-serial-number">id</th>
+                    <th class="col-chemical-name">Chemical Name</th>
+                    <th class="col-vendor">Vendor</th>
+                    <th class="col-density">Density</th>
+                    <th class="col-viscosity">Viscosity</th>
+                    <th class="col-packaging">Packaging</th>
+                    <th class="col-pack-size">Pack<br> Size</br></th>
+                    <th class="col-unit">Unit</th>
+                    <th class="col-quantity">Quantity</th>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+    
+            </tbody>
+        </table>
+    </div>
+    <script src="Task.js"></script>
+</body>
+</html>
